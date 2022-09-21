@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
 
 })
 
-app.listen(4000, () => {
+app.listen(port, () => {
     console.log('Dock at port' + port)
 })
